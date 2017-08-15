@@ -2,12 +2,13 @@
 * @providesModule Hyperlink
 **/
 
-import React, { Component, PropTypes } from 'react'
+import React, { Component } from 'react'
 import {
 	View,
 	Text,
 	Linking,
 } from 'react-native'
+import PropTypes from 'prop-types'
 
 const textPropTypes = Text.propTypes || {}
 
